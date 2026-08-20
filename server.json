@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.mcp-dir/antt_tric-mcp",
+  "title": "ANTT: Transporte Rodoviário Internacional de Cargas (TRIC)",
+  "description": "ANTT: Transporte Rodoviário Internacional de Cargas (TRIC), official-source lookup. Platform-hosted,",
+  "version": "0.1.0",
+  "repository": {
+    "url": "https://github.com/mcp-dir/antt_tric-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.mcp.ai/p_antt_tric"
+    }
+  ]
+}
